@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Righteous&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="loading d-none">
+        <span class="loader"></span>
+    </div>
+    <header><img src="./imges/wraper.png" alt=""></header>
+    <nav class="navbar w-100 navbar-expand-lg position-sticky top-0">
+        <div class="container">
+            <a class="navbar-brand fs-3 text-white" href="#">
+                <img class="logo" src="./imges/logo-sm.png" alt="logo">
+                <span class="pt-1 fs-5">GAME REVIEWS</span>
+            </a>
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="data" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHOOTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SAILING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PERMADEATH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SUPERHERO</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="#">PIXEL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="games min-vh-100 ">
+        <div class="container pt-5">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+    <section class="secondPage text-white w-100 vh-100 position-fixed top-0 d-none"
+        style="background-color: #32353A; z-index: 9999;">
+        <div class="container pt-4">
+            <div class="d-flex justify-content-between align-items-center ">
+                <h1>Details Game</h1>
+                <span id="closeDetailsPage" style="cursor: pointer;">
+                    <i class="fas fa-xmark-square fs-4"></i>
+                </span>
+            </div>
+            <div class="content w-100 d-flex justify-content-between align-items-start gap-5 pt-5">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
